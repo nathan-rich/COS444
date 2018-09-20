@@ -1,0 +1,85 @@
+input,select,textarea{
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+}
+
+.content-body {
+    padding: 10px;
+    background: rgba(173, 174, 230, 0.836);
+}
+
+.row-gap {
+    height: 50px;
+}
+
+.content-row {
+    display: flex;
+    padding: 10px;
+    width: 100%;
+}
+
+.content-row-notes {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.content-label {
+    margin-right: 10px;
+    width: 33%;
+}
+
+.content-field {
+    margin-right: 20px;
+    width: 30%;
+}
+
+.search-field {
+    width: 50%;
+    display: flex;
+}
+
+.search-input {
+    margin-right: 10px;
+}
+
+.btn-default {
+    border-radius: 5px;
+    background: #002663;
+    padding: 5px;
+    border: none;
+    color: white;
+    box-shadow: 2px 2px 2px 1px rgba(0,0,0,0.6);
+    -moz-box-shadow: 2px 2px 2px 1px rgba(0,0,0,0.6);
+    -webkit-box-shadow: 2px 2px 2px 1px rgba(0,0,0,0.6);
+    -o-box-shadow: 2px 2px 2px 1px rgba(0,0,0,0.6);
+}
+
+.btn-default:hover {
+    box-shadow: none;
+    cursor: pointer;
+    
+}
+
+.create-field {
+    width: 50%;
+    display: flex;
+}
+
+.btn-create {
+    margin-left: 82%
+}
+
+.week-cell {
+ width: 12.5%
+}
+
+.week-table {
+
+}
+
+.week-row {
+    width: 100%;
+}
